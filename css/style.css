@@ -1,0 +1,86 @@
+/* default styles*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #747577;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/** section **/
+
+section{
+    /* height: 100vh; */
+    display:flex;
+}
+
+.tech-gallery{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech_description{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #4C4e50;
+    color: #fff;
+    flex-direction: column;
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 90%);
+}
+
+.tech_description h1{
+    padding:11px;
+    font-size: 42px;
+}
+
+.tech_description p{
+    font-size: 22px;
+}
+
+ /* .phones_img{
+    width:200px; 
+    height: 60vh;
+} */
+
+.apple-img{
+    width:80%;
+    height: 65%;
+}
+
+.tech-preview{
+    display: flex;
+    width:80%;
+    /* height: 30vh;    */
+    border:2px solid #4e5052
+}
+
+.tech-preview img{
+    flex-grow: 1;
+    height: 100px;
+    opacity: 0.5;
+    cursor: pointer;
+    height: 18vh;
+    transition: 0.3s;
+}
+
+.tech-preview img:hover{
+    opacity: 02;
+}
+
+.img .tech-achtive{
+    opacity: 1;
+}
